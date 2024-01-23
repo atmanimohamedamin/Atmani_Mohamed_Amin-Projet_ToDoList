@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./../src/img/photo-1510070112810-d4e9a46d9e91.avif) fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    font-style: oblique;
+    font-size: 70px;
+    color: #f3a92e;
+}
+
+.titleDiv{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px;
+    
+}
+
+.firstText{
+    height: 40px;
+    width: 250px;
+    border: 2px solid #0094dc;
+    border-radius: 10px;
+    background-color: #f1a42b;
+    color: #0094dc;
+    font-weight: bold;
+}
+
+.firstBtn{
+    width: 80px;
+    border: 2px solid #0094dc;
+    border-radius: 10px;
+    transition: 0.2s all;
+    background-color: #f1a42b;
+    color: #0094dc;
+    font-weight: bolder;
+}
+
+.firstBtn:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btnTous, .btnEncours, .btnFini{
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #0094dc;
+    transition: 0.2s all;
+    background-color: #f3a92e;
+    color: #0094dc;
+    font-weight: bold;
+}
+
+h2{
+    color: #f1a42b;
+}
+
+.btnTous:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btnEncours:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btnFini:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px
+    ;
+    align-items: center;
+}
+
+.underDiv3{
+    background-color: #f3a92e;
+    height: 140px;
+    width: 43%;
+    border-radius: 10px;
+}
+
+.underDiv3:first-child{
+    display: none;
+}
+
+.secondText{
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #0094dc;
+    color: #f1a42b;
+    border: 2px solid #f1a42b;
+}
+
+.divText1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.divText2{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 15px;
+}
+
+.thirdBtn{
+    border-radius: 10px;
+    border: 2px solid #f1a42b;
+    transition: 0.2s all;
+    height: 50px;
+    width: 30%;
+    background-color: #0095dc;
+    color: #f1a42b;
+    font-weight: bolder;
+}
+
+.thirdBtn:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+.btnValider, .btnModif, .btnSuppr{
+    border-radius: 10px;
+    border: 2px solid #f1a42b;
+    transition: 0.2s all;
+    height: 50px;
+    width: 30%;
+    background-color: #0095dc;
+    color: #f1a42b;
+    font-weight: bolder;
+}
+
+.btnValider:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btnModif:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btnSuppr:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.green{
+    background-color: green;
+}
