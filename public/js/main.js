@@ -4,10 +4,10 @@ let ajouter = document.querySelector(".firstBtn");
 let div3 = document.querySelector(".div3");
 let firstText = document.querySelector(".firstText");
 let secondText = document.querySelector(".secondText");
-let valider = document.querySelector(".btnValider")
-let btnModif = document.querySelector(".btnModif")
-let btnSuppr = document.querySelector(".btnSuppr")
-let fini = document.querySelector(".btnFini")
+let valider = document.querySelector(".btnValider");
+let btnModif = document.querySelector(".btnModif");
+let btnSuppr = document.querySelector(".btnSuppr");
+let fini = document.querySelector(".btnFini");
 
 
 function Supprimer() {
@@ -32,10 +32,6 @@ function Valider() {
 });
 }
 
-
-
-
-
 ajouter.addEventListener("click", () => {
     cloneUnderDiv3 = underDiv3.cloneNode(true); 
     cloneUnderDiv3.querySelector(".secondText").value = firstText.value 
@@ -44,9 +40,7 @@ ajouter.addEventListener("click", () => {
     } else{
         div3.appendChild(cloneUnderDiv3);
         
-    }
-
-    
+    }   
 Valider();
 Supprimer();
 
